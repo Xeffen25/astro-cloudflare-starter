@@ -3,7 +3,7 @@ export default {
 		"@csstools/postcss-global-data": {
 			files: ["src/styles/global/media-queries.css"],
 		},
-
 		"postcss-custom-media": {},
+		"cssnano": {},
 	},
 };

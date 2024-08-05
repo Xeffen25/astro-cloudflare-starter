@@ -24,6 +24,7 @@
 	"devDependencies": {
 		"@cloudflare/workers-types": "^4.20240729.0",
 		"@csstools/postcss-global-data": "^3.0.0",
+		"cssnano": "^7.0.4",
 		"husky": "^9.1.4",
 		"lint-staged": "^15.2.8",
 		"postcss-custom-media": "^11.0.0",

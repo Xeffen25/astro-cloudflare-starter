@@ -1,0 +1,24 @@
+---
+//import faviconSVG from "public/favicon.svg";
+//import faviconPNG from "public/favicon.png";
+import faviconICO from "/favicon.ico";
+---
+
+{
+	/* <link rel="icon" type="image/svg+xml" href={faviconSVG.src} />
+	 */
+}
+{
+	/*
+    {faviconPNG ? <link rel="icon" type="image/png" href={faviconPNG.src} /> : null}
+	*/
+}
+
+{
+	faviconICO ? (
+		<>
+			<link rel="shortcut icon" href={faviconICO} type="image/x-icon" />
+			<link rel="icon" href={faviconICO} type="image/x-icon" />
+		</>
+	) : null
+}

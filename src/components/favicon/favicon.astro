@@ -1,12 +1,17 @@
-<link rel="apple-touch-icon" sizes="180x180" href="/icons/favicon-180.png" />
-<link rel="mask-icon" href="/favicon.svg" color="#cc0000" />
-<meta name="apple-mobile-web-app-title" content="Xeffen25" />
+---
+const color = "#cc0000";
+const appName = "Xeffen25";
+---
 
 <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
 <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16.png" />
-<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+<link rel="shortcut" href="/favicon.ico" type="image/x-icon" />
 <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 
+<link rel="apple-touch-icon" sizes="180x180" href="/icons/favicon-180.png" />
+<link rel="mask-icon" href="/favicon.svg" color={color} />
+<meta name="apple-mobile-web-app-title" content={appName} />
+
 <link rel="manifest" href="/site.webmanifest" />
-<meta name="theme-color" content="#cc0000" />
+<meta name="theme-color" content={color} />

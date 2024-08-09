@@ -1,0 +1,12 @@
+---
+interface Props extends PageProps {}
+
+const { title, description } = Astro.props;
+
+import Favicon from "@/components/seo/favicon.astro";
+---
+
+<title>{title}</title>
+<meta name="description" content={description} />
+
+<Favicon />

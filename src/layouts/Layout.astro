@@ -1,13 +1,9 @@
 ---
 import "@/styles/global/global.css";
 
-interface Props {
-	title: string;
-}
+interface Props extends PageProps {}
 
-const { title } = Astro.props;
-
-import Favicon from "@/components/favicon/favicon.astro";
+import Seo from "@/components/seo/seo.astro";
 ---
 
 <!doctype html>
@@ -17,9 +13,7 @@ import Favicon from "@/components/favicon/favicon.astro";
 		<meta name="description" content="Astro description" />
 		<meta name="viewport" content="width=device-width" />
 
-		<title>{title}</title>
-
-		<Favicon />
+		<Seo {...Astro.props} />
 	</head>
 	<body>
 		<slot />

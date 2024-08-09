@@ -1,36 +1,12 @@
----
-import faviconSVG from "public/favicon.svg";
-//import faviconPNG from "public/favicon.png";
-import faviconICO from "/favicon.ico";
----
-
-{
-	faviconSVG ? (
-		<link rel="icon" type="image/svg+xml" href={faviconSVG.src} />
-	) : null
-}
-{
-	/*
-    {faviconPNG ? <link rel="icon" type="image/png" href={faviconPNG.src} /> : null}
-	*/
-}
-
-{
-	faviconICO ? (
-		<>
-			<link rel="shortcut icon" href={faviconICO} type="image/x-icon" />
-			<link rel="icon" href={faviconICO} type="image/x-icon" />
-		</>
-	) : null
-}
-
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-<link rel="manifest" href="/site.webmanifest" />
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#cc0000" />
+<link rel="apple-touch-icon" sizes="180x180" href="/icons/favicon-180.png" />
+<link rel="mask-icon" href="/favicon.svg" color="#cc0000" />
 <meta name="apple-mobile-web-app-title" content="Xeffen25" />
-<meta name="application-name" content="Xeffen25" />
-<meta name="msapplication-TileColor" content="#cc0000" />
-<meta name="msapplication-TileImage" content="/mstile-144x144.png" />
+
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16.png" />
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+
+<link rel="manifest" href="/site.webmanifest" />
 <meta name="theme-color" content="#cc0000" />
